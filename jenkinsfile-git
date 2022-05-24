@@ -11,7 +11,7 @@ pipeline {
          stage('python build ') {
             steps {
                
-               sh'puthon3 flask3.py'
+               sh'python3 flask3.py'
             }
         }
         
