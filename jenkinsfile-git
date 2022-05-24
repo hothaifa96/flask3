@@ -10,7 +10,7 @@ pipeline {
         }
          stage('python build ') {
             steps {
-               
+               sh'python3 -m pytest test1.py'
                sh'python3 flask3.py&'
             }
         }
