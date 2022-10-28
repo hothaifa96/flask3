@@ -1,4 +1,5 @@
-def test_file1_method1():
-    x = 5
-    y = 6
-    assert x + 1 == y
+x = input();
+if x==4
+    print(x)
+else 
+    print("try again")
