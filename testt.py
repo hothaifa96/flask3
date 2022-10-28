@@ -1,5 +1,5 @@
 x = input();
 if x==4:
     print(x)
-else 
+else:
     print("try again")
